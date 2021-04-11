@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_ita_shpmonitor" />
+  <EntityRelationship Name="business_unit_ita_shpstats" />
+  <EntityRelationship Name="ita_SHPStats_SHPMonitor_ita_SHPMonitor" />
+  <EntityRelationship Name="lk_ita_shpmonitor_createdby" />
+  <EntityRelationship Name="lk_ita_shpmonitor_modifiedby" />
+  <EntityRelationship Name="lk_ita_shpstats_createdby" />
+  <EntityRelationship Name="lk_ita_shpstats_modifiedby" />
+  <EntityRelationship Name="owner_ita_shpmonitor" />
+  <EntityRelationship Name="owner_ita_shpstats" />
+  <EntityRelationship Name="team_ita_shpmonitor" />
+  <EntityRelationship Name="team_ita_shpstats" />
+  <EntityRelationship Name="user_ita_shpmonitor" />
+  <EntityRelationship Name="user_ita_shpstats" />
+</EntityRelationships>

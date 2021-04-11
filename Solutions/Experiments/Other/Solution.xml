@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21035.145" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>Experiments</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Experiments" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>itaintboring</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="ItAintBoring" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="ItAintBoring" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl>http://www.itaintboring.com</SupportingWebsiteUrl>
+      <CustomizationPrefix>ita</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>55678</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="ita_shpmonitor" behavior="0" />
+      <RootComponent type="1" schemaName="ita_shpstats" behavior="0" />
+      <RootComponent type="29" id="{0207d469-cb98-eb11-b1ac-000d3a09d614}" behavior="0" />
+      <RootComponent type="29" id="{6f61c57e-d798-eb11-b1ac-000d3a09d58b}" behavior="0" />
+      <RootComponent type="60" id="{72c322f4-fd22-428c-b8d9-65496d95640c}" behavior="0" />
+      <RootComponent type="60" id="{bb378bb5-c53b-43cd-9f0f-6c611160ca84}" behavior="0" />
+      <RootComponent type="62" schemaName="ita_SocialHypeMonitoring" behavior="0" />
+      <RootComponent type="80" schemaName="ita_SocialHypeMonitoring" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="connectionreference" displayName="ita_sharedcommondataserviceforapps_7def0" solution="Active" id.connectionreferencelogicalname="ita_sharedcommondataserviceforapps_7def0" />
+        <Dependent key="1" type="29" displayName="SHP Recurrent Monitoring" id="{0207d469-cb98-eb11-b1ac-000d3a09d614}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="connectionreference" displayName="ita_sharedcommondataserviceforapps_7def0" solution="Active" id.connectionreferencelogicalname="ita_sharedcommondataserviceforapps_7def0" />
+        <Dependent key="2" type="29" displayName="SHP Monitor Run" id="{6f61c57e-d798-eb11-b1ac-000d3a09d58b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="4" type="80" schemaName="ita_SocialHypeMonitoring" displayName="Social Hype Monitoring" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
