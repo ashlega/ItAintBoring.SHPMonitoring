@@ -1,0 +1,22 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  name: Hosted VS2017
+
+steps:
+- task: PowerPlatformToolInstaller@0
+  displayName: 'PowerApps Tool Installer '
+
+- task: PowerPlatformExportSolution@0
+  inputs:
+    authenticationType: 'PowerPlatformEnvironment'
+    SolutionName: 'Experiments'
+    SolutionOutputFile: 'Experiments.zip'
+    AsyncOperation: true
+    MaxAsyncWaitTime: '60'
